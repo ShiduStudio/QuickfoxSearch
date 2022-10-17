@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quickfox</title>
+</head>
+<style>
+    form input {
+        width: 40vw;
+        height: 8vh;
+        border: none;
+        border-radius: 100px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+        outline: none;
+        font-size: 1.125rem;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 20vw;
+    }
+
+    form button {
+        width: 8vh;
+        height: 8vh;
+        border: none;
+        background-color: #FFF;
+        border-radius: 100%;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+        font-size: 1.125rem;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: 20vw;
+    }
+
+    form img {
+        width: 3vh;
+        height: 3vh;
+    }
+</style>
+
+<body>
+    <div class="Search" style="text-align:center;">
+        <form action="https://bing.com/search">
+            <input type="text" name="q" id="Search" />
+            <button type="submit">
+                <img src="https://static.hetaousercontent.com/static/assets/bd380a7.icon_search_grey.png" alt="">
+            </button>
+        </form>
+        <img style="width: 640px;height: auto;" src="https://s3.bmp.ovh/imgs/2022/10/17/a04a069b442c48fc.png" />
+    </div>
+</body>
+
+</html>
+<script>
+    document.getElementById("Search").style.textIndent = "15px";
+</script>
